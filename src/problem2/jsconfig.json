@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "checkJs": false,
+    "jsx": "react",
+    "module": "commonjs",
+    "target": "es6",
+    "allowSyntheticDefaultImports": true,
+    "outDir": "out",
+    "baseUrl": "./",
+    "paths": {
+      "@/components": ["src/components/*"],
+      "@/utils": ["src/utils/*"],
+      "@/hooks": ["src/hooks/*"],
+    }
+  },
+  "include": ["**/*.js"],
+  "exclude": ["build", "node_modules"]
+}
